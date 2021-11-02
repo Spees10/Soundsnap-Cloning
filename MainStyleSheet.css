@@ -1,0 +1,460 @@
+/* .container{
+    width: 1170px;
+    margin: auto;
+} */
+
+body{
+    background-color: #f4f6f6;
+    height: 3000px;
+}
+/** =============== Main NAVBAR =============== */
+#navbary{
+    overflow: hidden;
+    padding:15px;
+    position: sticky;
+    top: 0;
+    border-bottom: 0.5px gray solid;
+    background-color: white;
+    z-index: 1;
+}
+
+/* svg Logo */
+#no1id{
+    width: 100;
+    float: left;
+    cursor: pointer;
+    transition: transform .2s;
+    filter: drop-shadow(10px 5px 4px rgb(175, 209, 202));
+}
+#no1id:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+    background-color: rgb(238, 206, 205);
+
+}
+
+/* Search Bar */
+#srchicon{
+    margin-left: 50px;
+    background: url(HCI/search1.svg) no-repeat scroll 5px 5px #F3F3F3;
+    padding-left:30px;
+    width: 900px;
+    height: 30px;
+    border: 0.5px;
+    background-color:#f0e8e8;
+    float: left;
+}
+#srchicon:focus{
+    outline: none;
+    border: 0.5px solid rgb(127, 207, 138);
+}
+
+/* Info with login and register */
+#info a{
+    font-family: Monolisa;
+    font-size: 14px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    padding:10px;
+    color: gray;
+    transition: transform .1s;
+}
+#info a:hover{
+    transform: scale(1.1);
+    color: tomato;
+}
+#info >:first-child{
+    margin-left: 10px;
+}
+
+#info2 a,span{
+    font-family: Monolisa;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    padding:1px;
+    padding-top: 9px;
+}
+#info2 >:first-child{
+    margin-left: 20px;
+}
+#info2 a:hover{
+    transform: scale(1.1);
+    color: sienna;
+}
+
+/* Social Media Links */
+#SocialLinks>:first-child{
+    margin-left: 20px;
+}
+#SocialLinks img{
+    width: 18px;
+    height: 18px;
+    padding: 10px;
+    transition: transform 0.1s;
+    border-radius: 50%;
+    filter: drop-shadow(10px 5px 4px rgb(208, 216, 214));
+}
+#SocialLinks img:hover{
+    transform: scale(1.1);
+    background-color: rgb(243, 235, 231);
+}
+
+/** =============== First Content =============== */
+#buySounds{
+    width: 100%;
+    height: 360px;
+    background-color: black;
+    overflow: hidden;
+}
+#div1{
+    float: left; 
+}
+#div1 p{
+    font-family: HelveticaNeueLTPro-Bold, Helvetica, sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    margin-left: 330px;
+}
+#div1 >:first-child{
+    margin-bottom: -50px;
+}
+#div1 h3{
+    font-family: HelveticaNeueLTPro-Bold, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 330px;
+    margin-top: -30px;
+}
+#div2{
+    /*! ask Eng.Mona Soliman ABout it!! */
+    background-image: linear-gradient(transparent 10% #1C1F1E);
+}
+#div2 img{
+    width: 840px;
+    float: right;
+    background-size: cover;
+    /* filter: brightness(70%); */
+}
+#div1 button{
+    width: 220px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 2%;
+    margin-left: 330px;
+    margin-top: 10px;
+    transition: transform 0.2;
+}
+#div1 a{
+    text-decoration: none;
+    color: white;
+}
+#div1 a:hover{
+    color: turquoise;
+}
+/** =============== SoundEffectCategory =============== */
+#ContentFull{
+    overflow: hidden;
+    margin-top: 90px;
+    margin-left: 330px;
+}
+#ContentFull p{
+    font-family: MonoLisa;
+    font-size: 28px;
+}
+.AncorImages{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    /* white-space: nowrap; */
+}
+.AncorImages img{
+    border-radius: 10px;
+    filter: brightness(50%);
+    
+}
+/** Start W3Schools ~(OVERLAY)~ */
+/* .overlay {
+    position: absolute;
+    bottom: 100%;
+    background-color: rgb(233, 113, 91);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+.AncorImages:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+} */
+/** End W3Schools ~(OVERLAY)~ */
+
+.Centered a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: Monolisa;
+    text-transform: uppercase
+}
+#last2{
+    margin-top: 3px;
+}
+.first4{
+    margin: 1.5px;
+}
+
+/** =============== Browse sounds by =============== */
+#content3{
+    margin-top: 80px;
+}
+.listy{
+    font-family: Monolisa;
+    font-size: 14px;
+    display: inline-block;
+}
+.listy a{
+    text-decoration: none;
+    padding: 15px;
+    color: gray;
+}
+.listy a:hover{
+    color: black;
+    border-bottom: indianred 2px solid;
+    color: indianred;
+}
+.listy>:first-child{
+    color: black;
+    border-bottom: black 2px solid;
+}
+
+/** =============== Content 4 =============== */
+#content4{
+    margin-top: 100px;
+}
+.AncorImages2{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.AncorImages2 img{
+    border-radius: 10px;
+    filter: hue-rotate(var(--value, 360deg)); --value:137deg;
+}
+
+/** =============== Content 5 =============== */
+#content5{
+    margin-top: 100px;
+}
+#p1,#p2{
+    float: left;
+    color: #2D4A41;
+    font-size: 42px;
+    font-weight: bold;
+}
+#p2{
+    margin-left: 100px;
+}
+#p1 span,#p2 span{
+    float: left;
+    color: gray;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/** =============== Content 5.1 =============== */
+#Content5v2{
+    overflow: hidden;
+    margin-top: 150px;
+    margin-left: -30px;
+}
+#Content5v2 div{
+    float: left;
+    width: 260px;
+    height: 250px;
+    margin: 30px;
+}
+#Content5v2 p{
+    font-size: 20px;
+    color: #333333;
+    font-family: Monolisa;
+    font-weight: bold;
+}
+#Content5v2 p span{
+    font-size: 14px;
+    font-weight: 200;
+    color: gray;
+    font-family: Monolisa;
+}
+
+/** =============== Finale Content =============== */
+#FinalDiv{
+    height: 666px;
+    background-color: black;
+    margin-top: 130px;
+    z-index: 999;
+    
+}
+.subtitle {
+    color: white;
+    font-family: Monolisa;
+    margin :200px 30px 0 300px ;
+}
+
+h2.subtitle {
+    font-size: 28px;
+    line-height: 38px;
+
+}
+#div3{
+    width: 700px;
+}
+#mainconver{
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    float: right;
+    position: absolute;
+    background-color: rgba(53,53,53,.32);
+    /* background-image: linear-gradient(to bottom,rgba(0,0,0,.24),#000); */
+   filter: brightness(50%);
+   height: 555px;
+   width: 1055px;
+}
+#companies{
+    position: absolute;
+    margin-left: 700px;
+}
+#companies img{
+    
+    margin: 30px;
+    filter: brightness(70%);
+}
+
+/** =============== Finale2 Content =============== */
+
+#Final2{
+    font-family: HelveticaNeueLTPro-Bold, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;    
+    position: absolute;
+    background-color: black;
+    height: 900px;
+    width: 100%;
+}
+#Final2>:first-child{
+    margin-left: 600px;
+    margin-bottom: -50px;
+}
+#Final2 a{
+    text-decoration: none;
+    color: #00FFAF;
+}
+#Final2 a:hover{
+    color: #248165;
+}
+#insideF2>:first-child{
+    margin-left: 30px;
+    margin-bottom: -50px;
+}
+
+/** =============== Finale3 Content =============== */
+#Final3{
+    margin-top: 400px;
+    margin-left: 80px;
+    position: relative;
+   
+}
+#insideF3 img{
+    
+    display: inline-block;
+    background-color: #F0E8E8;
+    border-radius: 30px;
+    filter: brightness(50%);
+    transition: transform .2s;
+    cursor: pointer;
+}
+#insideF3 img:hover{
+    background-color: turquoise;
+    transform: scale(1.2);
+}
+
+#insideF3v2{
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 280px;
+    margin-top: -160px;
+}
+#insideF3v2 h5{
+    float: left;
+    color: white;
+    font-size: 25px;
+    font-family:HelveticaNeueLTPro-Bold, Helvetica, sans-serif;
+    padding: 80px;
+    line-height: 50px;
+}
+#insideF3v2 h5 a{
+    font-size: 16px;
+    color: gray;
+    text-decoration: none;
+    display: block;
+    transition: transform .1s;
+    padding-bottom: -15px;
+}
+#insideF3v2 h5>:first-child{
+    margin-top: 20px;
+}
+#insideF3v2 h5 a:hover{
+    color: indianred;
+    transform: scale(1.1);
+}
+
+#insideF3v3{
+    float: right;
+    margin-right: 100px;
+    margin-top: -30px;
+}
+#insideF3v3 img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    transition: transform .2s;
+}
+#insideF3v3 img:hover{
+
+    transform: scale(1.3);
+}
+
+#insideF3v4{
+    color: gray;
+    margin-left: 566px;
+    margin-top: -50px;
+    font-family:HelveticaNeueLTPro-Bold, Helvetica, sans-serif ;
+    font-size: 18px;
+}

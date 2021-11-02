@@ -1,0 +1,126 @@
+/* ==========First Div========== */
+#leftSide{
+    float: left;
+}
+#logo{
+    margin-top: 40px;
+    margin-left: 70px;
+    transition: transform 0.2s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#logo:hover{
+    transform: scale(1.1);
+    background-color: rgb(253, 145, 126);
+}
+
+#signUp{
+    margin-left: 70px;
+    margin-top: 90px;
+}
+#signUp h3{
+    font-family:HelveticaNeueLTPro-Bold, Helvetica, sans-serif;
+    font-size:36px;
+    line-height:48px;
+    margin-top:20px;
+    color: #333333;
+}
+.inpu1{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 430px;
+    height: 55px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+#signUp input::-webkit-input-placeholder{
+    /* content: '*'; */
+    color: rgb(163, 3, 3);
+    padding-left: 20px;
+}
+#signUp P{
+    color: gray;
+    margin-top: 5px;
+    font-family:HelveticaNeueLTPro-Bold, Helvetica, sans-serif;
+}
+#chkbx{
+    width: 18px;
+    height: 18px;
+}
+#agrtrm{
+    font-family:HelveticaNeueLTPro-Bold, Helvetica, sans-serif;
+    color: gray;
+}
+#agrtrm a{
+    text-decoration: none;
+    color: #99E1FF;
+    transition: transform 0.2s;
+}
+#agrtrm a:hover{
+    transform: scale(1.1);
+    color: lawngreen;
+}
+
+#signUp button{
+    margin-top: 30px;
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: wheat;
+}
+#signUp button a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family:HelveticaNeueLTPro-Bold, Helvetica, sans-serif;
+    color: black;
+    line-height:20.px;
+}
+
+#alrdy{
+    padding-top: 20px;
+}
+#alrdy a{
+    text-decoration: none;
+    color: #99E1FF;
+    transition: transform 0.2s;
+}
+#alrdy a:hover{
+    transform: scale(1.1);
+    color: lawngreen;
+}
+
+/* rightSide */
+#rightSide{
+ background-color: black;
+ width: 1100px;
+ height: 785px;
+ float: right;
+ position: relative; 
+}
+
+#h2right{
+    color: gray;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 300px;
+    font-family: HelveticaNeueLTPro-Bold, Helvetica, sans-serif;
+    font-size:20px ;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+}
+#h3right{
+    color: white;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 350px;
+    font-family: HelveticaNeueLTPro-Bold, Helvetica, sans-serif;
+    font-size:34px ;
+    line-height: 46px;
+    letter-spacing: normal;
+}
+
+#companies{
+    margin-top: 680px;
+    margin-left: 80px;
+}
